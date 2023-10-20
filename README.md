@@ -9,7 +9,13 @@ https://towardsdatascience.com/animal-classification-using-pytorch-and-convoluti
 https://www.sciencedirect.com/science/article/pii/S2468227622000606
 
 #### MD
+
+###### Fauna Image Classification using Convolutional Neural Network0
+Sanghvi, Kavish. “Fauna Image Classification Using Convolutional Neural Network.” Medium, Analytics Vidhya, 21 Apr. 2023, medium.com/analytics-vidhya/fauna-image-classification-using-convolutional-neural-network-30df9e25a010. 
+
 https://medium.com/analytics-vidhya/fauna-image-classification-using-convolutional-neural-network-30df9e25a010
+
+
 https://www.researchgate.net/publication/333045049_Classification_of_Animals_with_Different_Deep_Learning_Models
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10177479/
 https://www.nature.com/articles/s41598-019-44565-w
