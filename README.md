@@ -3,10 +3,11 @@
 ### Literature Review
 
 #### Abdon
-Ziheng Sun a, et al. “A Review of Earth Artificial Intelligence.” Computers, Geosciences, Pergamon, 5 Jan. 2022, www.sciencedirect.com/science/article/pii/S0098300422000036. 
+
+##### Ziheng Sun a, et al. “A Review of Earth Artificial Intelligence.” Computers, Geosciences, Pergamon, 5 Jan. 2022, www.sciencedirect.com/science/article/pii/S0098300422000036. 
 https://www.sciencedirect.com/science/article/pii/S0098300422000036
 
-Link to notes: 
+Link to notes: [Review of Earth AI](https://github.com/ereedsanchez/AI-Forest-Cam/blob/AbdonV_Research/Abdon_Notes/A%20Review%20of%20Earth%20AI)
 
 https://www.nature.com/articles/s41467-022-27980-y
 
