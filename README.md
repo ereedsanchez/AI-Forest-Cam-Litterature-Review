@@ -3,8 +3,13 @@
 ### Literature Review
 
 #### Abdon
-https://www.nature.com/articles/s41467-022-27980-y
+Ziheng Sun a, et al. “A Review of Earth Artificial Intelligence.” Computers, Geosciences, Pergamon, 5 Jan. 2022, www.sciencedirect.com/science/article/pii/S0098300422000036. 
 https://www.sciencedirect.com/science/article/pii/S0098300422000036
+
+Link to notes: 
+
+https://www.nature.com/articles/s41467-022-27980-y
+
 https://towardsdatascience.com/animal-classification-using-pytorch-and-convolutional-neural-networks-78f2c97ca160?gi=02a7bece34cf
 https://www.sciencedirect.com/science/article/pii/S2468227622000606
 
