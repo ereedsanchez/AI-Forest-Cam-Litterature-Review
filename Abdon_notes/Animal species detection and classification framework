@@ -1,27 +1,60 @@
 A review of:
+
+
+
 Animal species detection and classification framework based on modified multi-scale attention mechanism and feature pyramid network.
 
 This paper emphasizes the importance of detecting and classifying animal species for various reasons, including assessing their long-term viability and mitigating threats to both humans and the environment, especially on roadways. Introducing a two-stage network with a modified multi-scale attention mechanism to enhance animal recognition and classification. The proposed model is evaluated using AP and mAP metrics on wildlife datasets, resulting in significant improvements in accuracy compared to non-attention-based models. This approach is shown to be effective in detecting and classifying animal species. The Proposed model was evaluated and a 20% increase in each class was achieved by the attention-based proposed model compared to the non-attention-based model.
+
 Different anchor sizes are employed to predict the target bounding boxes for one-stage detectors, such as the RetinaNet, SSD, YOLO9000,, and YOLOv2 which is similar to the beginning phase of the Faster CNN. Despite the excellent performance in terms of speed of the one-stage detectors, there exists a research gap; when there is a smaller anchor size, the target bounding box is missing, however when the anchor size is too large, the wider receptive field reduces the actual properties of the target resulting to a shallow score causing poor performance. With the two-stages detector, like Faster R-CNN, R-FCN, and FPN, the regional proposal networks (RPN) and the classification networks are all involved.
+
 Computer Vision (CV) is set up to realize objects, such as localization, detection, and Classification. 
+
 The identification of animal heads has obvious obstacles, as the face of animals varies significantly from the face of humans. 
+
 The Region proposal Network (RPN) supervised by Focal Loss achieved state-of-the-art performance in object detection. It focuses on only the valuable part of the image and discards the part without the needed information. With the issue of tiny object detection with tiny animal species, first, small animal species will be handled discretely by enlarging the image size and then making high-resolution detection maps, which will require additional training and testing time, thus straining the detection apps in real-time. A different way of creating multi-level representation network variations can improve the model's ability
-Animal species detection and classification
+
+
+
+** Animal species detection and classification
+
 Conventional machine learning algorithms such as SIFT combination, local-structured binary patterns, sparse weighted dictionary education coding, and Support Vector Machine. Requires some special features if the animal is previously known. Images are also manually cropped to select only the whole animal shape before feeding to the algorithm.
+
 Techniques by researchers, working on animal species identifying structures utilizing a digital camera connected to an infrared sensor to capture animal images using the AlexNet, VGGNet, GoogLeNet (Inception), and ResNets. The Blackbox extractor technique of ConvNets was then applied.
+
 The Wildlife Detector was given as a CNN model that trains a binary classification (with two classes, animal and non-animal) and wildlife identification as another CNN model, which would learn a multi-class classifier (species identification). The “so-called” Lite Alex Net was a wildlife detector, and two ConvNets (VGG-16 and ResNet-50) had lesser hidden layers and feature maps on each layer. The camera-trap images form a mix of favorite ways to segment and classify animals at times
+
 Employed were animal recognition techniques in the Colombian forest, by the name of robust layer principal component analysis for segmentation, CNN for extracting features, the LASSO (Least Absolute Shrinkage and Selection Operator) for characteristics, and the SVM for Classification of mammalian genera. The CNN was applied as GoogLeNet, ResNet50, ResNet101, ResNet152, and MixtureNet. The authors obtained significantly excellent accuracy values contributing to CNN, LASSO, and SVM applications.
-Generic Object Detection
+
+
+
+** Generic Object Detection
+
 By depending on Faster RCNN, Mask R-CNN extends by a branch to parallel the prediction of a masked object with an existing unit. Mask RCNN gives simultaneously high-quality semantic segmentation and efficient object identification. Cascade R-CNN utilizes numerous IoU thresholds to train several waterfall detectors for noise interference and inaccurate object identification issues.
-Architecture 
+
+
+
+** Architecture
+
 Utilized a two-stage network. They used the backbone network topology of ResNet50. Applied is a modified multiscale attention mechanism to the backbone network to focus on the features maps. The modified multiscale attention model is processed in five scales before the feature pyramid is gained from the feature maps to produce high-level semanticized maps at any scale. Employed is the DenseNet model in the classification phase. DenseNet is more efficient but decreases the number of parameters when merging feature mappings.
-Data Sets:
+
+
+
+** Data Sets:
+
 Animal-80 dataset: This consists of 80 classes of animal species, with 45,132 for the training set and 13,010 for the test set. The repository for this dataset can be found in:  https://www.kaggle.com/antoreepjana/animals-detection-images-dataset.
+
 Animal Wildlife: This dataset consists of four categories of animal species, namely Buffalo, Elephant, Rhino, and zebra, with each class having 752 instances with a total number of 3,008 images. Because of the variance in the size of the employed dataset, they resized it to 356*356 and fed it into the model. they recomputed the annotation after resizing since the Animal-80 dataset was in the pascalVoc annotation file as a data preprocessing step already. The African wildlife dataset is initially in a Yolo annotation format, which forced development of a simple conversion python code to do both resizing, reannotation, and conversion from Yolo to PascalVoc annotation file format. https://www.kaggle.com/biancaferreira/african-wildlife gives access to the dataset.
+
 They used a python deep learning open source framework deployed in the Keras-TensorFlow code to implement their Animal species detection and classification algorithm. They evaluated their techniques using the African Wildlife animal dataset and Animal-80 dataset.
+
 Used a python environment with Intel® Core™ i7-7700k CPU @ 4.20GHz CPU of 32.0 GB, 64-bit Operating System, x64-based processor, and NVIDIA GeForce GTX 1080TI GPU (12GB Memory). The Resnet-50 architecture, which is pretrained on the ImageNet1k dataset, is applied as our backbone.
+
 The with attention model uniformly outperformed the without attention model. 
 
-Other models tested
+
+
+** Other models tested
+
 YOLOv3 outperformed our proposed model with a slight difference in some of the classes when implemented on the 10 classes dataset recorded. But observed that tuning model parameters such as Learning Rate, Batch Size, Epoch, Weight Initialization, Activation Functions, etc., increases detection accuracy.
 
