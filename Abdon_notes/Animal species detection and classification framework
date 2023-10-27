@@ -4,7 +4,7 @@ A review of:
 
 Animal species detection and classification framework based on modified multi-scale attention mechanism and feature pyramid network.
 
-This paper emphasizes the importance of detecting and classifying animal species for various reasons, including assessing their long-term viability and mitigating threats to both humans and the environment, especially on roadways. Introducing a two-stage network with a modified multi-scale attention mechanism to enhance animal recognition and classification. The proposed model is evaluated using AP and mAP metrics on wildlife datasets, resulting in significant improvements in accuracy compared to non-attention-based models. This approach is shown to be effective in detecting and classifying animal species. The Proposed model was evaluated and a 20% increase in each class was achieved by the attention-based proposed model compared to the non-attention-based model.
+This paper emphasizes the importance of detecting and classifying animal species for various reasons, introducing a two-stage network with a modified multi-scale attention mechanism to enhance animal recognition and classification. The proposed model is evaluated using AP and mAP metrics on wildlife datasets, resulting in significant improvements in accuracy compared to non-attention-based models. This approach is shown to be effective in detecting and classifying animal species. 
 
 Different anchor sizes are employed to predict the target bounding boxes for one-stage detectors, such as the RetinaNet, SSD, YOLO9000,, and YOLOv2 which is similar to the beginning phase of the Faster CNN. Despite the excellent performance in terms of speed of the one-stage detectors, there exists a research gap; when there is a smaller anchor size, the target bounding box is missing, however when the anchor size is too large, the wider receptive field reduces the actual properties of the target resulting to a shallow score causing poor performance. With the two-stages detector, like Faster R-CNN, R-FCN, and FPN, the regional proposal networks (RPN) and the classification networks are all involved.
 
@@ -12,7 +12,7 @@ Computer Vision (CV) is set up to realize objects, such as localization, detecti
 
 The identification of animal heads has obvious obstacles, as the face of animals varies significantly from the face of humans. 
 
-The Region proposal Network (RPN) supervised by Focal Loss achieved state-of-the-art performance in object detection. It focuses on only the valuable part of the image and discards the part without the needed information. With the issue of tiny object detection with tiny animal species, first, small animal species will be handled discretely by enlarging the image size and then making high-resolution detection maps, which will require additional training and testing time, thus straining the detection apps in real-time. A different way of creating multi-level representation network variations can improve the model's ability
+The Region proposal Network (RPN) supervised by Focal Loss achieved state-of-the-art performance in object detection. It focuses on only the valuable part of the image and discards the part without the needed information. With the issue of tiny object detection with tiny animal species, first, small animal species will be handled discretely by enlarging the image size and then making high-resolution detection maps, which will require additional training and testing time, thus straining the detection apps in real-time. 
 
 
 
