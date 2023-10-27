@@ -9,13 +9,17 @@ https://www.sciencedirect.com/science/article/pii/S0098300422000036
 
 Link to notes: [Review of Earth AI](https://github.com/ereedsanchez/AI-Forest-Cam/blob/AbdonV_Research/Abdon_Notes/A%20Review%20of%20Earth%20AI)
 
+
+#### Chiagoziem C. Ukwuoma a, et al. “Animal Species Detection and Classification Framework Based on Modified Multi-Scale Attention Mechanism and Feature Pyramid Network.” Scientific African, Elsevier, 18 Mar. 2022, www.sciencedirect.com/science/article/pii/S2468227622000606. 
+
+Link to notes: [Review of Animal Species Detection and Classification](https://www.sciencedirect.com/science/article/pii/S2468227622000606)
+
+
 https://www.nature.com/articles/s41467-022-27980-y
 
 https://www.pnas.org/doi/abs/10.1073/pnas.1719367115
 
 https://towardsdatascience.com/animal-classification-using-pytorch-and-convolutional-neural-networks-78f2c97ca160?gi=02a7bece34cf
-
-https://www.sciencedirect.com/science/article/pii/S2468227622000606
 
 https://ieeexplore.ieee.org/document/7025172
 
