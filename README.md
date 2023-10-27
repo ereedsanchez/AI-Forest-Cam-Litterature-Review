@@ -17,14 +17,19 @@ https://ieeexplore.ieee.org/document/7025172
 
 #### MD
 https://medium.com/analytics-vidhya/fauna-image-classification-using-convolutional-neural-network-30df9e25a010
+
 https://www.researchgate.net/publication/333045049_Classification_of_Animals_with_Different_Deep_Learning_Models
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10177479/
+
 https://www.nature.com/articles/s41598-019-44565-w
 
 
 ### Application / Tools Review
 https://teachablemachine.withgoogle.com/
+
 https://news.mit.edu/2023/ai-model-high-resolution-computer-vision-0912
+
 https://neptune.ai/blog/deploying-computer-vision-models
 
 ### Teachable Machine
