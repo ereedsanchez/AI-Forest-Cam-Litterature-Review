@@ -20,6 +20,8 @@ https://medium.com/analytics-vidhya/fauna-image-classification-using-convolution
 
 https://www.researchgate.net/publication/333045049_Classification_of_Animals_with_Different_Deep_Learning_Models
 
+www.researchgate.net/publication/333045049_Classification_of_Animals_with_Different_Deep_Learning_Models. Accessed 1 Nov. 2023. 
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10177479/
 
 https://www.nature.com/articles/s41598-019-44565-w
