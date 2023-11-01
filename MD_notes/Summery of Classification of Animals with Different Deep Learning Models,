@@ -1,0 +1,14 @@
+The article "Classification of Animals with Different Deep Learning Models" by Özkan İNİK and Bülent TURAN discusses the use of deep learning models, specifically AlexNet and VggNet, for the classification of 14 different animal classes. The following are the main points of the study:
+
+Introduction: Labeling photographs according to their content is the process of image classification, which is the topic of this article's introduction. Artificial intelligence's deep learning discipline has become more well-known in picture classification problems, particularly since AlexNet's victory in the ImageNet competition.
+
+AlexNet: The deep learning model that took first place in the 2012 ImageNet competition is discussed in this article. It offers information on its architecture, including the number of filters in the convolutional layers, strides, and filter sizes.
+
+VggNet: This is a different deep learning model that is shown. It is distinguished by being more profound than earlier versions and by having a 3x3 filter with a stride of 1, which lowers data loss during layer-to-layer information transfer.
+
+Data Set: In order to classify 14 distinct animal types, researchers developed a new data set. 2100 photos total from the internet and other sources make up the dataset. They downsized the images to two different parameters, 224x224 and 227x227, and separated the data into training and testing sets.
+
+Experimental Studies: The results of the experiments are presented in the paper, demonstrating that VggNet classified the animals with an accuracy of 91.2% and AlexNet with a 67.65%. Confusion matrices are included by the authors to evaluate how well each animal class is performed by both models.
+The study concludes that AlexNet's higher error rate can be ascribed to its network architecture, which has fewer layers and particular values for parameters like stride and filter size. The authors admit that their effectiveness in classifying animals was substantial even with a limited dataset, indicating the promise of deep learning models for image identification tasks.
+
+In conclusion, the paper investigates the use of deep learning models—AlexNet and VggNet in particular—for animal classification. It talks about the architectures of the models and offers information about how well they performed using the generated dataset. The study emphasizes how crucial network architecture is to getting precise results when classifying images.
