@@ -5,8 +5,9 @@
 #### Abdon
 
 ##### Tensor Flow RPi
-https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html'
-https://medium.com/codex/image-classification-using-tensorflow-lite-on-raspberry-pi-3-1ed2a2d9ae4c
+- https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html'
+- https://www.instructables.com/Image-Recognition-With-TensorFlow-on-Raspberry-Pi/
+- https://medium.com/codex/image-classification-using-tensorflow-lite-on-raspberry-pi-3-1ed2a2d9ae4c
 
 https://www.nature.com/articles/s41467-022-27980-y
 
