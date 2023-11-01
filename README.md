@@ -39,6 +39,7 @@ https://github.com/googlecreativelab/teachablemachine-community/blob/master/snip
 
 ### Tensor Flow
 https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html'
+https://medium.com/codex/image-classification-using-tensorflow-lite-on-raspberry-pi-3-1ed2a2d9ae4c
 
 ### Github Animal Classification Projects
 https://github.com/Agewerc/wildlifeComputerVision
