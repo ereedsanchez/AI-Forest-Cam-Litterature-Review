@@ -3,6 +3,11 @@
 ### Literature Review
 
 #### Abdon
+
+##### Tensor Flow RPi
+https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html'
+https://medium.com/codex/image-classification-using-tensorflow-lite-on-raspberry-pi-3-1ed2a2d9ae4c
+
 https://www.nature.com/articles/s41467-022-27980-y
 
 https://www.sciencedirect.com/science/article/pii/S0098300422000036
@@ -16,6 +21,10 @@ https://www.pnas.org/doi/abs/10.1073/pnas.1719367115
 https://ieeexplore.ieee.org/document/7025172
 
 #### MD
+
+###### Tensor Flow Laptop / Webcam
+https://www.youtube.com/watch?v=usR2LQuxhL4
+
 https://medium.com/analytics-vidhya/fauna-image-classification-using-convolutional-neural-network-30df9e25a010
 
 https://www.researchgate.net/publication/333045049_Classification_of_Animals_with_Different_Deep_Learning_Models
@@ -37,9 +46,11 @@ https://neptune.ai/blog/deploying-computer-vision-models
 ### Teachable Machine
 https://github.com/googlecreativelab/teachablemachine-community/blob/master/snippets/markdown/tiny_image/GettingStarted.md
 
-### Tensor Flow
+### Tensor Flow RPi
 https://qengineering.eu/install-tensorflow-2.1.0-on-raspberry-pi-4.html'
 https://medium.com/codex/image-classification-using-tensorflow-lite-on-raspberry-pi-3-1ed2a2d9ae4c
+
+
 
 ### Github Animal Classification Projects
 https://github.com/Agewerc/wildlifeComputerVision
