@@ -15,9 +15,17 @@ Link to notes: [Review of Earth AI](https://github.com/ereedsanchez/AI-Forest-Ca
 Link to notes: [Review of Animal Species Detection and Classification](https://github.com/ereedsanchez/AI-Forest-Cam/blob/54880dd1059a604bb829a52f82d43e680e29ed37/Abdon_notes/Animal%20species%20detection%20and%20classification%20framework)
 
 
+#### Tuia, Devis, et al. “Perspectives in Machine Learning for Wildlife Conservation.” Nature News, Nature Publishing Group, 9 Feb. 2022, www.nature.com/articles/s41467-022-27980-y. 
 https://www.nature.com/articles/s41467-022-27980-y
 
+Link to notes:[Review of Perspectives in Machine Learning for Wildlife Conservation](https://github.com/ereedsanchez/AI-Forest-Cam/blob/0fd76e19a856e23591e833c18bc1fd3b98fc07df/Abdon_notes/Perspectives%20in%20Machine%20Learning%20for%20Wildlife%20Conservation)
+
+
+
+#### Automatically Identifying, Counting, and Describing Wild Animals ... - PNAS, www.pnas.org/doi/full/10.1073/pnas.1719367115. Accessed 8 Nov. 2023. 
 https://www.pnas.org/doi/abs/10.1073/pnas.1719367115
+
+Link to notes: [Automatically Identifying, Counting, and Describing Wild Animals](https://github.com/ereedsanchez/AI-Forest-Cam/blob/da06c0bd0b02d6c5d9ab5b7ab8f270d5debc82ba/Abdon_notes/Automatically%20identifying%2C%20counting%2C%20and%20describing%20wild%20animals%20in%20camera-trap%20images%20with%20deep%20learning)
 
 https://towardsdatascience.com/animal-classification-using-pytorch-and-convolutional-neural-networks-78f2c97ca160?gi=02a7bece34cf
 
