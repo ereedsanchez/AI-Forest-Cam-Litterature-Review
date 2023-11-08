@@ -1,0 +1,70 @@
+Review of : Perspectives in machine learning for wildlife conservation
+
+Crowdsourcing platforms like eMammal (emammal.si.edu), Agouti (agouti.eu), and Zooniverse (www.zooniverse.org) function as collaborative portals to collect data from different 
+projects and provide tools to volunteers to annotate images, such as those with species labels of the individuals therein. 
+
+By August 2021 the platform Agouti hosted 31 million images, of which only 1.5 million were annotated.
+This is mostly due to the manual nature of the current annotation tool, which requires human review of every image.
+
+
+
+
+Stationary sensors provide a high level of temporal resolution that allows for detailed analysis, including presence/absence, individual identification, behavior analysis, and predator-prey interaction. 
+However, because of their stationary nature, their data is highly spatiotemporally correlated. 
+Based on where and when in the world the sensor is placed, therefore there is a limited number of species that can be captured.
+
+Camera traps are among the most used sensors, with more than a million cameras already used.
+
+But the popularity of camera traps also creates challenges relative to the quantity of images and the need for manual annotation of the collections: 
+software tools easing the annotation process are appearing like Open-source ML approaches for filtering out blank images such as Microsoft AI4Earth MegaDetector. 
+Problems related to lack of generality across geographies, day/night acquisition, or sensors are still major obstacles to production-ready accurate systems.
+
+De-siloing efforts from organizations like Wildlife Insights (www.wildlifeinsights.org) and LILA.science (www.lila.science) will help increase ML accuracy
+
+
+
+
+Bio acoustic sensors are an alternative to image-based systems, using microphones and hydrophones to study vocal animals and their habitats. 
+Passive-acoustic-monitoring (PAM) is mostly unaffected by light and weather conditions, senses the environment omnidirectionally, and tends to be cost-effective. 
+Long-term PAM datasets is still in its infancy and the first DL-based studies are only starting to appear.
+
+Acoustic spectrograms, and videos models perform accurately and robustly on specific classes (the MegaDetector or AIDE).
+
+
+
+
+A particularly interesting case is Wildbook, which routinely screens videos from social media platforms with computer vision models to identify individuals, 
+community members (in this case video posters) are then queried in case of missing or uncertain information.
+
+Identifying individuals from images is even more challenging than species recognition, since the distinctive body patterns of individuals mightbe subtle or not be sufficiently visible due to occlusion, 
+motion blur, or overhead viewpoint in the case of aerial imagery. 
+Yet, conventional and more recently DL-based methods have reached strong performance for specific taxa, especially across small populations. 
+Some species have individually-unique coat or skin markings that assist with re-identification: for example, accuracy exceeded 90% in a study of 92 tigers across 8000 video clips.
+
+A study of a small group of 23 chimpanzees in Guinea applied facial recognition techniques to a multi-year dataset comprising 1 million images and achieved >90% accuracy.
+
+Challenges for animal (re-)identification in wild populations are related to the difficulty of manual curation, larger populations, changes in appearance 
+(e.g., due to scars, growth), few sightings per individual, and the frequent addition of new individuals that may enter the system due to birth or immigration, 
+therefore creating an “open-set” problem wherein the model must deal with “classes” (individuals) unseen during training. 
+The methods must have the ability to identify not only animals that have been seen just once or twice but also recognize new, previously unseen animals, 
+as well as adjust decisions that have been made in the past, reconciling different views and biological stages of an animal.
+
+Keep in mind the 3D shape of an individual can be related to its health, age, or reproductive status; 
+the 3D pose of the body can provide finer information with respect to posture attributes and allows, for instance, kinematic as well as behavioral analyses.
+
+
+
+
+TRex, a new image-based tracking software, can track the movement and posture of hundreds of individually-recognized animals in real-time. Here the software has been used to visualize the formation of trails in a termite colony
+
+Pose estimation software, such as DeepPoseKit (d)75 and DeepLabCut (e)74,142 allows researchers to track the body position of individual animals from video imagery, including drone footage, and estimate 3D postures in the wild.
+
+The SMAL model has been used in a DL approach to predict 3D shape and pose of the Grevy’s zebra from images. 3D shape models have been recently defined also for birds111.
+
+Context R-CNN52 for animal detection and species classification, which leverages the prior knowledge that backgrounds in camera trap imagery exhibit little variation over time and that camera traps acquire data with low sampling frequency and occasional dropouts. By integrating image features over long time spans (up to a month), the model is able to increase mean species identification precision in the Snapshot Serengeti dataset137 by 17.9%.
+
+GeoLifeCLEF curated a dataset of 1.9 million iNaturalist observations from North America and France depicting over 31,000 species, together with environmental predictors (land cover, altitude, climatic data, etc.), and asked users to predict a ranked list of likely species per geospatial grid cell.
+
+State-of-the-art ML concepts for animal ecology now exist, thanks to corporate (e.g., Wildlife Insights) and research (AIDE, MegaDetector, DeepLabCut) efforts
+
+
