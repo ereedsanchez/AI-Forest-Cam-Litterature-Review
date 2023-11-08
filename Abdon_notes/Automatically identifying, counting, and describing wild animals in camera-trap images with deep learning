@@ -1,0 +1,59 @@
+A review of : Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning
+
+
+Deep learning can automate animal identification for 99.3% of the 3.2 million-image Snapshot Serengeti dataset while performing at the same 96.6% accuracy of crowdsourced teams of human volunteers.
+
+
+
+
+They trained deep convolutional neural networks to identify, count, and describe the behaviors of 48 species in the 3.2 million-image Snapshot Serengeti dataset. 
+Our deep neural networks automatically identify animals with >93.8% accuracy
+
+The SS project is the world’s largest camera-trap project published to date, with 225 camera traps running continuously in Serengeti National Park, Tanzania.
+Whenever a camera trap is triggered, such as by the movement of a nearby animal, the camera takes a set of pictures (usually three). Each trigger is referred to as a capture event. 
+The public dataset used in this work contains 1.2 million capture events (3.2 million images) of 48 different species. 
+The SS dataset contains labels for six additional attributes: standing, resting, moving, eating, interacting, and whether young are present.
+
+For each image set, multiple users label the species, number of individuals, various behaviors (i.e., standing, resting, moving, eating, or interacting), and the presence of young. 
+In total, 10.8 million classifications from volunteers have been recorded for the entire dataset. 
+Snapshot Serengeti, a simple algorithm to aggregate these individual classifications into a final “consensus” set of labels, yielding a single classification for each image and a measure of agreement among individual answers.
+
+The dataset can be very unbalanced, meaning that some species are much more frequent than others.
+Such imbalance is problematic for machine-learning techniques because they become heavily biased toward classes with more examples
+
+In the main experiment, they focused on labeling individual images instead because if they ultimately can correctly label individual images, it is easy to infer the labels for capture events. 
+They also found that using individual images resulted in higher accuracy because it allowed three times more labeled training examples.
+
+
+
+
+A two-stage pipeline outperformed a one-step pipeline. 
+
+In the first stage, a network solved the empty vs. animal task (detecting if an image contains an animal). 
+In the second information-extraction stage, a network then reported information about the images that contain animals. Removing 75% of labor spent identifying empty images. 
+
+While also removing images that humans labeled as containing more than one species from our training and testing sets (1.2% of the dataset).
+
+The Information-Extraction stage contains three additional tasks:
+
+Task II, identifying which species is present; 
+Task III, counting the number of animals; and 
+Task IV, describing additional animal attributes (their behavior and whether young are present).
+
+
+
+
+The best single model (ResNet-152) obtained 93.8% top-1 and 98.8% top-5 accuracy
+
+
+
+
+The main takeaway is that a substantial fraction of the data can be automatically extracted at the same 96.6% accuracy level of citizen-scientists, even if only a few thousand labeled images are available. 
+Accuracy, and thus automation percentages, further improves as more labeled data are provided during training. 
+With 1.5 thousand (1.5k) images, >41% of the entire pipeline can be automated. 
+Assuming a conservative 10 s per image, labeling these 1.5k images takes only 4.2 h. 
+
+With 10k, and 15k images (27.8, and 41.7 h), 71.4%, and 83.0% of the data can be automatically labeled, respectively. 
+With 50k images (138.9 h), 91.4% of the entire pipeline can be automated.
+
+
