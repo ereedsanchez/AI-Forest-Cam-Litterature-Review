@@ -16,6 +16,7 @@ Link to notes: [Review of Earth AI](https://github.com/ereedsanchez/AI-Forest-Ca
 &nbsp;
 
 #### Chiagoziem C. Ukwuoma a, et al. “Animal Species Detection and Classification Framework Based on Modified Multi-Scale Attention Mechanism and Feature Pyramid Network.” Scientific African, Elsevier, 18 Mar. 2022, www.sciencedirect.com/science/article/pii/S2468227622000606. 
+https://www.sciencedirect.com/science/article/pii/S2468227622000606
 
 Link to notes: [Review of Animal Species Detection and Classification](https://github.com/ereedsanchez/AI-Forest-Cam/blob/54880dd1059a604bb829a52f82d43e680e29ed37/Abdon_notes/Animal%20species%20detection%20and%20classification%20framework)
 
