@@ -1,6 +1,25 @@
 # AI-Forest-Cam
 
-### Literature Review
+### Literature Review 2024
+- Animal Detection and Classification from Camera Trap Images Using Different Mainstream Object Detection Architectures
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9367452/
+
+- Wildlife Object Detection Method Applying Segmentation Gradient Flow and Feature Dimensionality Reduction
+  https://www.mdpi.com/2079-9292/12/2/377
+
+- Animals species detection using Deep learning(African wildlife)
+  https://hamoyehq.medium.com/animals-species-detection-using-deep-learning-african-wildlife-2f90748c4141
+
+- animal-detection: Here are 19 public GitHub repositories matching this topic...
+  https://github.com/topics/animal-detection
+
+- Top 15 Public Datasets for Object Detection in 2023
+  https://www.tasq.ai/blog/top-15-public-datasets-for-object-detection/
+
+- Object Detection in 2024: The Definitive Guide
+  https://viso.ai/deep-learning/object-detection/
+
+### Literature Review 2023
 
 #### Abdon
 
