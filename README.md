@@ -1,5 +1,5 @@
 # AI-Forest-Cam
-See folders above to view literature reviews from students. 
+See folders MD-notes, and Abdon-notes above to view literature reviews from students. 
 
 ### Articles to review:
 
