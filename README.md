@@ -1,4 +1,7 @@
 # AI-Forest-Cam
+See folders above to view literature reviews from students. 
+
+### Articles to review:
 
 ### Literature Review 2024
 - Animal Detection and Classification from Camera Trap Images Using Different Mainstream Object Detection Architectures
