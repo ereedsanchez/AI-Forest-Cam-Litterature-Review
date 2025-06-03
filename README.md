@@ -1,5 +1,5 @@
 # AI-Forest-Cam
-See folders MD-notes, and Abdon-notes above to view literature reviews from students. 
+See folders [Abdon-notes](https://github.com/ereedsanchez/AI-Forest-Cam-Litterature-Review/tree/main/Abdon_notes), and [MD-notes](https://github.com/ereedsanchez/AI-Forest-Cam-Litterature-Review/tree/main/MD_notes) above to view literature reviews from students. 
 
 ### Articles to review:
 
